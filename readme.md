@@ -58,10 +58,9 @@ Beroende på behörighet så har användare olika tillgång till API:et.
 
 <details>
   <summary>
-    GET /library/books/search
-    { "query" }
+    GET /library/books/search/:query
   </summary>
-  Query paramtern motsvarar en sökt boktitel.
+  Query paramtern motsvarar en sökt boktitel. Observera att den skickas som en del av URL:n, /library/books/search/<your_search_query>.
 
   Responsen är en lista med matchade böcker och ett verisonsnummer som används vid högre betyg. Se kriterier.
   Vid tom titel så skickas alla böcker tillbaks som svar.
