@@ -5,7 +5,7 @@ const router = express.Router();
 
 router
   .get("/books", bookController.getAllBooks)
-  .get("/books/search/:query", bookController.searchBook);
+  .get("/books/search", bookController.searchBook);
 
 
 export default router;
