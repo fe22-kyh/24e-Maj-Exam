@@ -18,7 +18,6 @@ const getBook = (title) => {
 
 const searchBooks = (query) => {
   query = query.toLowerCase();
-  console.log(query);
   return getBookContext().books.filter(book => {
     return (book.title + " " + book.author).toLowerCase().includes(query);
   });
