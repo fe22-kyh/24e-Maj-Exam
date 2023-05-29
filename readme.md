@@ -163,7 +163,7 @@ Samtliga anrop ger:
 
 <details>
   <summary>
-  PATCH /admin/users {"username"}
+  PUT /admin/users {"username"}
   </summary>
   Tilldelar administratör status till användaren med angivet username 
   Username är case sensitive.
