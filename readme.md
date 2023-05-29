@@ -151,6 +151,7 @@ Samtliga anrop ger:
   </summary>
 
   Ger statuskod 200 när en bok har tagits bort
+  Ger statuskod 404 om boken man tar bort inte finns
 </details>
 
 <details>
