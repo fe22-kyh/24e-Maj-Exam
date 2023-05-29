@@ -109,8 +109,7 @@ Samtliga anrop ger:
 
 <details>
   <summary>
-    POST /library/user/books
-    { "title", "quantity" }
+    POST /library/user/books { "title", "quantity" }
   </summary>
   "title" är case sensitive.
   "quantity" godtas endast om antal böcker finns i databasen.
@@ -156,7 +155,7 @@ Samtliga anrop ger:
 
 <details>
   <summary>
-  GET [/admin/users]((server/src/controller/adminController.js)
+  GET /admin/users
   </summary>
 
   Ger en lista över alla användare
