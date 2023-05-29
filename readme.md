@@ -128,7 +128,7 @@ Samtliga anrop ger:
 
 <details>
   <summary>
-  POST /admin/books { "Author", "Title", "Quantity"}
+  POST /admin/books { "author", "title", "quantity"}
   </summary>
 
   Ger statuskod 201 när en bok har lagts till.
@@ -147,7 +147,7 @@ Samtliga anrop ger:
 
 <details>
   <summary>
-  DELETE /admin/books { "Title" }
+  DELETE /admin/books { "title" }
   </summary>
 
   Ger statuskod 200 när en bok har tagits bort
